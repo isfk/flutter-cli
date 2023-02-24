@@ -18,9 +18,18 @@
 
 ## 使用(使用直接看这里就可以了)
 
-```shell
-go install github.com/isfk/flutter-cli@latest
+### 安装
 
+1. 普通用户[直接下载](https://github.com/isfk/flutter-cli/releases)对应的二进制文件，解压运行
+
+2. `Go` 用户安装
+   ```
+   go install github.com/isfk/flutter-cli@latest
+   ```
+
+### 命令行使用
+
+```shell
 flutter-cli create myapp
 flutter-cli page user
 ```
